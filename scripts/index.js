@@ -113,7 +113,6 @@ class Event {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const eventsContainer = document.querySelector('#eventsContainer');
     events.forEach(data => {
         let eventObj = new Event(data.titre, data.description, data.img, data.date, data.lieu, data.prix, data.capacite);
         let eventElement = eventObj.createEvent();
@@ -131,5 +130,7 @@ document.addEventListener('click', (e) => {
         let commentaire = eventElement.querySelector('.commentaireEvent');
         commentaire.classList.toggle('deployed');
     }
-    
+    if(e.target.closest('.messageBtn')){
+        e.target.closest('.messageBtn').classList.toggle('deployedMessage')
+    }
 });

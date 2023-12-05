@@ -10,5 +10,8 @@
 <body>
     <?php require "nav.php" ?>
     <div id="eventsContainer"></div>
+    <div id="message">
+        <h2 class="messageBtn">Messages <img src="assets/chevron.svg" alt="image de chevron" height="40px"></h2>
+    </div>
 </body>
 </html>

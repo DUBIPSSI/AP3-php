@@ -1,4 +1,4 @@
-import events from "./event";
+import events from "./event.js";
 
 class Event {
     constructor(titre, description, img, date, lieu, prix, capacite ) {

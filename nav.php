@@ -6,14 +6,14 @@
     </div>
     <div class="navE">
         <img src="assets/contact.svg" alt="">
-        <a href="contact">Contact</a>
+        <a href="contact.php">Contact</a>
     </div>
     <div class="navE">
         <img src="assets/search.svg" alt="">
-        <a href="rechercher">Rechercher</a>
+        <a href="rechercher.php">Rechercher</a>
     </div>
     <div class="navE">
         <img src="assets/profil.svg" alt="">
-        <a href="profil">Profil</a>
+        <a href="profil.php">Profil</a>
     </div>
 </nav>

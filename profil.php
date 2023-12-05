@@ -12,7 +12,7 @@
     <?php if(isset($_SESSION['uid'])): ?>
         <div id="profil"></div>
     <?php else : ?>
-        <a href="login">vous n'êtes pas connecté, cliquez-ici.</a>
+        <a href="login.php">vous n'êtes pas connecté, cliquez-ici.</a>
     <?php endif; ?>
 </body>
 </html>
